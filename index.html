@@ -17,6 +17,9 @@
     <!-- Custom CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
 
+    <!-- Barchart CSS -->
+    <link href="css/barchart.css" rel="stylesheet">
+
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -129,6 +132,7 @@
                         <li><i class="fa-li fa fa-check-square"></i>A blog about my projects.</li>
                         <li><i class="fa-li fa fa-check-square"></i>Two-page CV.</li>
                         <li><i class="fa-li fa fa-check-square"></i>And more to come ...</li>
+                     </ul>
         </div>
     </section>
 
@@ -209,6 +213,13 @@
     <!-- Map Section -->
     <!-- div id="map"></div -->
 
+    <!-- Barchart Section -->
+    <form>
+    	<label><input type="radio" name="mode" value="grouped"> Grouped</label>
+        <label><input type="radio" name="mode" value="stacked" checked> Stacked</label>
+    </form>
+
+
     <!-- Footer -->
     <footer>
         <div class="container text-center">
@@ -224,6 +235,10 @@
 
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Barchart JavaScript -->
+    <script src="js/barchart.js"></script>
+
 
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
     <!-- script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script -->
