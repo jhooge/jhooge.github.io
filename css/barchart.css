@@ -4,6 +4,7 @@ barchart-body {
   position: absolute;
   width: 100px;
   background-color:#E0E0E0;
+  color: lightgrey;
 }
 
 text {
