@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+	<meta property="og:image" content="img/portfolio.png">
 
     <title>About Jens Hooge</title>
 
@@ -16,6 +17,7 @@
 
     <!-- Custom CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
+	<!-- link rel="stylesheet" type="text/css" href="css/barchart.css" -->
 
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -111,27 +113,45 @@
         </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="content-section text-center">
-        <div class="about-section">
-            <div class="col-lg-8 col-lg-offset-2">      
-                <h2 class="section-heading">About This Site:
-                <br>My Live Portfolio</h2>  
-                <p class="lead">
-                    The following bite-sized sections will tell you a lot about me in a few minutes:
-                </p>
-                <div class="col-lg-4 col-lg-offset-100">
-                    <ul class="fa-ul center-block text-center">
-                        <li><i class="fa-li fa fa-check-square"></i>Micro bio.</li>
-                        <li><i class="fa-li fa fa-check-square"></i>A blog about my projects.</li>
-                        <li><i class="fa-li fa fa-check-square"></i>Two-page CV.</li>
-                        <li><i class="fa-li fa fa-check-square"></i>And more to come ...</li>
-                    </ul>
+	
+	<link rel="stylesheet" type="text/css" href="css/barchart.css">
+	<section id="about">
+    
+    <div class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+					<hr class="section-heading-spacer">
+                    <h2 class="section-heading">About This Site:
+                        <br>My Live Portfolio</h2>  
+                      <p class="lead">
+                        The following bite-sized sections will tell you a lot about me in a few minutes:
+                        </p><ul class="fa-ul">
+                          <li><i class="fa-li fa fa-check-square"></i>Micro bio.</li>
+                          <li><i class="fa-li fa fa-check-square"></i>A blog about my projects.</li>
+                          <li><i class="fa-li fa fa-check-square"></i>Current research work.</li>
+                          <li><i class="fa-li fa fa-check-square"></i>Two-page CV.</li>
+                          <li><i class="fa-li fa fa-check-square"></i>Open-source projects.</li>
+                        </ul>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+					<div class="barchart-body">
+						<script src="http://d3js.org/d3.v3.min.js"></script>
+						<!-- form>
+						  <label><input type="radio" name="mode" value="grouped"> Grouped</label>
+						  <label><input type="radio" name="mode" value="stacked" checked> Stacked</label>
+						</form -->
+						<iframe src="barchart.html" align="left" width="650" height="350" scrolling="no" frameborder="0"></iframe>
+					</div>
+					
                 </div>
             </div>
         </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.content-section-b -->
     </section>
-
+	
     <!-- Bio Section -->
     <section id="bio" class="content-section text-center">
         <div class="bio-section">
@@ -178,7 +198,7 @@
 
     <!-- Code Section -->
     <section id="code">
-    <div class="content-section-b">
+    <div class="content-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
