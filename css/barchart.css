@@ -3,8 +3,8 @@ barchart-body {
   margin: 10 10 10 10;
   position: absolute;
   width: 100px;
-  background-color:#E0E0E0;
-  color: lightgrey;
+  background-color:#fff;
+  color: #428bca;
 }
 
 text {
